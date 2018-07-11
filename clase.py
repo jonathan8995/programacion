@@ -29,3 +29,19 @@ for i in range(1,101):
 
 for e in "hola mundo":
 	print e
+
+numero = int(input("Digame cuantas palabras tiene la lista: "))
+
+if numero < 1:
+    print("Imposible")
+else:
+    lista = []
+    for i in range(numero):
+		
+        print i
+        palabra = raw_input("Digame la palabra " + str(i + 1) + ": ")
+        lista += [palabra]
+    print "La lista creada es :"  
+    print lista
+
+
