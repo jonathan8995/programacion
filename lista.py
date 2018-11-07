@@ -1,4 +1,4 @@
-print "Porfavor indiquenos la cantidad de de palabras que quieres asignar"
+print "Porfavor indiquenos la cantidad de palabras que quieres asignar"
 palabras = input()
 print "Digame cuantas palabras tiene la lista =" + str(palabras)
 lista = []
