@@ -8,9 +8,6 @@ for i in lista:
 nombre='name'
 diccionario={}
 print diccionario
-print diccionario['nombre2']
-print diccionario.keys()
-print diccionario.values()
 diccionario['nombre2']='luis'
 print diccionario
 diccionario['nombre']='paola'
